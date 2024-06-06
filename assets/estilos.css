@@ -68,4 +68,8 @@ a:hover {
 .btn-pink:hover{
 background-color: #ff5baf; 
 border-color: #ff5baf; 
-    }
+}
+.footer p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+}
