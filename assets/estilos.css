@@ -1,3 +1,71 @@
+.navbar{
+    font-family: "Raleway", sans-serif;
+}
+.header h1{
+    font-family: "Raleway", sans-serif;
+    text-decoration: overline 3px;
+    text-decoration-color: pink;
+}
+.header p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+}
 .cards{
     background-color: black!important;
+    font-family: "Raleway", sans-serif;
 }
+.cards h5{
+    color: rgb(250, 140, 193);
+    font-weight: 800;
+}
+.cards p{
+    font-weight: 200
+}
+.flex-container{
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+}
+.flex-container h2{
+    color:rgb(250, 140, 193);
+    outline-style: solid;
+    outline-color:pink;
+    outline-width: 3px;
+    outline-offset: 5px;
+    background: rgb(255, 207, 224);
+}
+.flex-container li{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.flex-container p{
+    font-weight:300;
+    font-size: 1.3rem;
+}
+a {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.3rem;
+    color:pink; 
+    text-decoration: none; 
+    transition: color 0.3s, text-decoration 0.3s; 
+}
+
+a:hover {
+    color: rgb(242, 28, 135);
+    text-decoration: underline;
+}
+.form{
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+}
+.form p{
+    font-weight: 100;
+}
+.btn-pink{
+    color: #fff; 
+    background-color: #fa8cc3;
+    border-color:#fa8cc3; 
+}
+.btn-pink:hover{
+background-color: #ff5baf; 
+border-color: #ff5baf; 
+    }

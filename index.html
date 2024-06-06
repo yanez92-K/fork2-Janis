@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./assets/estilos.css">
+<script src="https://kit.fontawesome.com/c8102e27c1.js" crossorigin="anonymous"></script>
     <title>Janis Cáceres</title>
 </head>
 <body>
@@ -33,10 +34,10 @@
           </div>
         </div>
       </nav>
-      <header id="Perfil" class="text-light bg-black">
+      <header class="text-light bg-black">
         <div class="container">
-            <div class="col-sm 12 d-flex justify-content-center">
-                <div>
+            <div class="col-sm-12 d-flex justify-content-center">
+                <div class="header">
                     <h1 class="display-1 text-secondary-emphasis fw-bold my-5 justify-content-center">
                         Sobre Mí<br /></h1>
                       <p class="my-5">
@@ -57,21 +58,21 @@
                     <div class="card text-center text-light bg-black" style="width: 18rem; border: none;">
                         <img src="./assets/trabajo1.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Yves Saint Laurent</h5>
+                            <h5 class="card-title fs-4"">Yves Saint Laurent</h5>
                           <p class="card-text">Maquilladora y consultora de belleza en rpoductos de cuidado perspnal y maquillaje en tiendas Retail a través de agencia GrupoExpro.</p>
                         </div>
                       </div>
                       <div class="card text-center  text-light bg-black" style="width: 18rem; border: none;">
                         <img src="./assets/trabajo2.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Blush-Bar</h5>
+                            <h5 class="card-title fs-4"">Blush-Bar</h5>
                           <p class="card-text">Maquilladora y vendedora, encargada de asesorar a clientas a la hora de elegir productos de cuidado personal y maquillaje, trabajando con diversas marcas. Además de recibir capacitaciones constantes de las marcas y nuevos lanzamientos. También realizando servicios de maquillaje y clases de estos.</p>
                         </div>
                       </div>
                       <div class="card text-center text-light bg-black " style="width: 18rem; border: none;">
                         <img src="./assets/trabajo3.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Independiente</h5>
+                            <h5 class="card-title fs-4">Independiente</h5>
                           <p class="card-text">Maquilladora profesional de forma independiente para diversos eventos sociales tales como matrimonios, graduaciones,fiestas y sesiones fotográficas.</p>
                         </div>
                       </div>
@@ -79,7 +80,50 @@
             </div>
           </div>
       </section>
+      <section class="flex-container">
+        <div class="container">
+            <div class="d-flex flex-row justify-content-around">
+                <div>
+                    <h2 class="fw-bold">Formación Académica</h2>
+                    <ul class="text-light list-unstyled">
+                        <li>Egresada como Maquilladora Profesional del instituto Levinia Manfredini</li>
+                        <li>Actualmente Cursando Programación</li>
+                    </ul>
+                    <a href="./portfolio.html" target="_blank">Portfolio del curso</a>
+                </div>
+                <div>
+                    <h2 class="fw-bold">Habilidades</h2>
+                    <p class="text-light">Inglés oral y escrito Avanzado.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="form">
+        <section id="Contacto" class="container p-2">
+            <h2 class="display-4 text-center text-light">Contáctame</h2>
+            <p class="text-center my-4 d-none d-md-block text-light">Para consultas y colaboraciones profesionales, dejame un mensaje.</p>
+            <form>
+              <div class="form-group mb-4">
+                <label class="mb-2 text-light">Nombre</label>
+                <input class="form-control" placeholder="Nombre" />
+              </div>
+               <div class="form-group mb-4">
+                <label class="mb-2 text-light">Correo electrónico</label>
+                <input class="form-control " placeholder="Correo electrónico" />
+              </div>
+              <div class="form-group">
+                <label class="mb-2 text-light">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Escribe aquí tu mensaje"
+                ></textarea>
+              </div>
+              <div class="my-3 text-end">
+                <button class="btn btn-pink text-light">Enviar</button>
+              </div>
+            </form>
+          </section>
+      </section>
       
-     
 </body>
 </html>
