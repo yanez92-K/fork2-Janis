@@ -1,9 +1,13 @@
-.avatar{
-    display: grid;
-    place-items: center;
-    margin: 3rem;
+.avatar {
+  display: grid;
+  place-items: center;
+  margin: 3rem;
 }
-.icons{
-    text-align: center!important;
-    list-style: none;
+.icons {
+  text-align: center !important;
+  list-style: none;
+}
+.cards {
+    background: linear-gradient(45deg, pink, rgb(237, 63, 153),rgb(193, 155, 240),rgb(4, 4, 66));
+    
 }
