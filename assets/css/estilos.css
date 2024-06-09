@@ -1,9 +1,20 @@
 body{
     background-color: black;
 }
+
+
+/*NAVBAR*/
+
 .navbar{
     font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
 }
+.nav-link:hover{
+    background-color: #fa8cc3;
+}
+.navbar:hover
+.navbar:hover
+
 .header h1{
     font-family: "Raleway", sans-serif;
     text-decoration: overline 3px;
@@ -31,7 +42,7 @@ header img{
 
 .card-item{
     cursor: pointer;
-    box-shadow: 0px 1px 10px rgb(250, 140, 193);
+    box-shadow: 0px 1px 5px rgb(250, 140, 193);
     transition: all 400ms ease;
 }
 .card-item:hover{
@@ -99,10 +110,13 @@ header img{
     color: #dbdbdb;
     font-weight: 100;
 }
+
+
+/*LINK*/
 a {
     font-family: "Raleway", sans-serif;
     font-size: 1.3rem;
-    color:rgb(238, 235, 236); 
+    color:rgb(238, 235, 236); ;
     text-decoration: none; 
     transition: color 0.3s, text-decoration 0.3s; 
 }
