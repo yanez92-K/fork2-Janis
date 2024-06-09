@@ -21,15 +21,8 @@
 }
 .link {
     font-size: 1.3rem;
-    color:rgb(47, 32, 34); 
-    text-decoration: none; 
-    transition: color 0.3s, text-decoration 0.3s; 
 }
 
-link:hover {
-    color: rgb(242, 28, 135);
-    text-decoration: underline;
-}
 body {
     font-family: "Montserrat", sans-serif;
     background: linear-gradient(
